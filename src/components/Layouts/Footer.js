@@ -7,7 +7,7 @@ export const Footer = () => {
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2026{" "}
           <Link to="/" className="hover:underline">
-            CodeBook
+            e-Commerce Project
           </Link>
           . All Rights Reserved.
         </span>
