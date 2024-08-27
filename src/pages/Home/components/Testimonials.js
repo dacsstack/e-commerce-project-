@@ -1,4 +1,4 @@
-import Avatar from "../../assets/6858504.png";
+import Avatar from "../../../assets/6858504.png";
 
 export const Testimonials = () => {
   return (
