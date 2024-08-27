@@ -1,3 +1,5 @@
+import Avatar from "../../assets/6858504.png";
+
 export const Testimonials = () => {
   return (
     <section className="my-20">
@@ -16,11 +18,7 @@ export const Testimonials = () => {
             </p>
           </blockquote>
           <figcaption className="flex justify-center items-center space-x-3">
-            <img
-              className="w-9 h-9 rounded-full"
-              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=120&q=50"
-              alt="user"
-            />
+            <img className="w-9 h-9 rounded-full" src={Avatar} alt="user" />
             <div className="space-y-0.5 font-medium dark:text-white text-left">
               <div>Lorem, ipsum dolor.</div>
               <div className="text-sm font-light text-gray-500 dark:text-gray-400">
@@ -40,13 +38,9 @@ export const Testimonials = () => {
             </p>
           </blockquote>
           <figcaption className="flex justify-center items-center space-x-3">
-            <img
-              className="w-9 h-9 rounded-full"
-              src="https://images.unsplash.com/photo-1525085475165-c6808cdb005e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=120&q=50"
-              alt="user"
-            />
+            <img className="w-9 h-9 rounded-full" src={Avatar} alt="user" />
             <div className="space-y-0.5 font-medium dark:text-white text-left">
-              <div>Roberta Casas</div>
+              <div>Lorem, ipsum.</div>
               <div className="text-sm font-light text-gray-500 dark:text-gray-400">
                 Lorem, ipsum dolor.
               </div>
@@ -64,13 +58,9 @@ export const Testimonials = () => {
             </p>
           </blockquote>
           <figcaption className="flex justify-center items-center space-x-3">
-            <img
-              className="w-9 h-9 rounded-full"
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=120&q=60"
-              alt="user"
-            />
+            <img className="w-9 h-9 rounded-full" src={Avatar} alt="user" />
             <div className="space-y-0.5 font-medium dark:text-white text-left">
-              <div>Jese Leos</div>
+              <div>Lorem, ipsum.</div>
               <div className="text-sm font-light text-gray-500 dark:text-gray-400">
                 Lorem, ipsum.
               </div>
@@ -85,13 +75,9 @@ export const Testimonials = () => {
             <p className="my-4 font-light">Lorem ipsum dolor sit amet.</p>
           </blockquote>
           <figcaption className="flex justify-center items-center space-x-3">
-            <img
-              className="w-9 h-9 rounded-full"
-              src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=120&q=60"
-              alt="user"
-            />
+            <img className="w-9 h-9 rounded-full" src={Avatar} alt="user" />
             <div className="space-y-0.5 font-medium dark:text-white text-left">
-              <div>Joseph McFall</div>
+              <div>Lorem.</div>
               <div className="text-sm font-light text-gray-500 dark:text-gray-400">
                 Lorem, ipsum dolor.
               </div>
